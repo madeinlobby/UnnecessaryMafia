@@ -16,18 +16,10 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:yalda" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
+    <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16f53b23-5a7e-431a-a047-7c400e135d65" name="Default Changelist" comment="kalam">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="16f53b23-5a7e-431a-a047-7c400e135d65" name="Default Changelist" comment="ash reshte bedune reshte" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +45,9 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1gjkJKrPCpIyR4WEHFsedwWPCuX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -105,7 +100,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="code structure" />
     <MESSAGE value="kalam" />
-    <option name="LAST_COMMIT_MESSAGE" value="kalam" />
+    <MESSAGE value="ash reshte bedune reshte" />
+    <option name="LAST_COMMIT_MESSAGE" value="ash reshte bedune reshte" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -119,6 +115,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1598637471161" />
+    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1598643699659">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="93" y="93" width="1350" height="648" key="DiffContextDialog/0.0.1536.834@0.0.1536.834" timestamp="1598643699659" />
     <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1598635949750">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -127,9 +127,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1598642380931" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1598642462537">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="280" y="91" key="Vcs.Push.Dialog.v2" timestamp="1598643617706">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1598642462537" />
+    <state x="280" y="91" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1598643617706" />
   </component>
 </project>
