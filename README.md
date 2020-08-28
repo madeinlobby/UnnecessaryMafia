@@ -1,10 +1,8 @@
 # UnnecessaryMafia
 
-Welcome to U.M.
+Welcome to U.M. (Backend)
 
 | Members |
 | :---:   |
-| `Ali Najibi`  |
 | `Alireza Honarvar`  |
-| `Pourya Momtaz` |
 | `Yalda Shabanzadeh` |
