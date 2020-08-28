@@ -1,6 +1,6 @@
 package main
 
-import "UnnecessaryMafia-Backened/server"
+import "UnnecessaryMafia-Backend/server"
 
 func main() {
 	ser := server.Server{}

@@ -1,7 +1,7 @@
 package server
 
 import (
-	"UnnecessaryMafia-Backened/controller"
+	"UnnecessaryMafia-Backend/controller"
 	"net/http"
 )
 

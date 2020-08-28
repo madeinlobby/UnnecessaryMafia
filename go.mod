@@ -1,4 +1,4 @@
-module UnnecessaryMafia-Backened
+module UnnecessaryMafia-Backend
 
 go 1.15
 

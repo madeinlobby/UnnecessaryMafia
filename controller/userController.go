@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"UnnecessaryMafia-Backened/model"
+	"UnnecessaryMafia-Backend/model"
 	"log"
 )
 
