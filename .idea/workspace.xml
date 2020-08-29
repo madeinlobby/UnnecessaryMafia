@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16f53b23-5a7e-431a-a047-7c400e135d65" name="Default Changelist" comment="ash reshte bedune reshte" />
+    <list default="true" id="53c7b4ff-4b25-4da3-9a24-e8e09c741aab" name="Default Changelist" comment="ash reshte bedune reshte">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +58,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql_aurora" />
+    <property name="DatabaseDriversLRU" value="mysql_aurora&#10;mysql" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -62,12 +67,28 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/main.go" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\yalda\go\src\UnnecessaryMafia-Backend\model" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="go build UnnecessaryMafia-Backend" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="UnnecessaryMafia-Backend" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="UnnecessaryMafia-Backend" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build UnnecessaryMafia-Backend" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,14 +128,16 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state x="86" y="182" key="#SQL_Dialects" timestamp="1598638706847">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="103" y="223" key="#SQL_Dialects" timestamp="1598696644094">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="86" y="182" key="#SQL_Dialects/0.0.1280.680@0.0.1280.680" timestamp="1598638706847" />
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598637471161">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="103" y="223" key="#SQL_Dialects/0.0.1536.834@0.0.1536.834" timestamp="1598696644094" />
+    <state x="258" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598696568605">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1598637471161" />
+    <state x="258" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1598696568605" />
     <state x="93" y="93" width="1350" height="648" key="DiffContextDialog" timestamp="1598643699659">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -123,14 +146,39 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1598635949750" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1598642380931">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom" timestamp="1598697139913">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1598697139913" />
+    <state width="1493" height="211" key="GridCell.Tab.0.center" timestamp="1598697139913">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1598697139913" />
+    <state width="1493" height="211" key="GridCell.Tab.0.left" timestamp="1598697139913">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1598697139913" />
+    <state width="1493" height="211" key="GridCell.Tab.0.right" timestamp="1598697139913">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1598697139913" />
+    <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1598696586992">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="189" height="457" key="HiddenNamespacesPopup/0.0.1536.834@0.0.1536.834" timestamp="1598696586992" />
+    <state x="170" y="0" key="SettingsEditor" timestamp="1598697310448">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1598642380931" />
-    <state x="280" y="91" key="Vcs.Push.Dialog.v2" timestamp="1598643617706">
+    <state x="170" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1598697310448" />
+    <state x="280" y="91" key="Vcs.Push.Dialog.v2" timestamp="1598644227715">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1598642462537" />
-    <state x="280" y="91" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1598643617706" />
+    <state x="280" y="91" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1598644227715" />
+    <state x="558" y="120" width="501" height="594" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1598696947349">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="558" y="120" width="501" height="594" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.834@0.0.1536.834" timestamp="1598696947349" />
   </component>
 </project>
