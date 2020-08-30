@@ -16,12 +16,18 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53c7b4ff-4b25-4da3-9a24-e8e09c741aab" name="Default Changelist" comment="login init, only property 'username' is exported, http: superfluous response.WriteHeader call">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/postRequests.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/postRequests.go" afterDir="false" />
+    <list default="true" id="15377f3a-3835-43fa-8c18-839eb9362306" name="Default Changelist" comment="go.sum">
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/database.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/database.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +116,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="yalda" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -198,5 +204,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="423" y="122" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1/0.0.1536.834@0.0.1536.834" timestamp="1598697349823" />
+    <state x="423" y="54" key="git4idea.branch.GitSmartOperationDialog" timestamp="1598823340140">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="423" y="54" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.680@0.0.1280.680" timestamp="1598823340140" />
   </component>
 </project>
