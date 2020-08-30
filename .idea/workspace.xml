@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53c7b4ff-4b25-4da3-9a24-e8e09c741aab" name="Default Changelist" comment="added register parameters">
+    <list default="true" id="53c7b4ff-4b25-4da3-9a24-e8e09c741aab" name="Default Changelist" comment="corrected RegisterHandler">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/userController.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/userController.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/postRequests.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/postRequests.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +128,8 @@
     <MESSAGE value="ash reshte bedune reshte" />
     <MESSAGE value="added mysql import, ignored typo" />
     <MESSAGE value="added register parameters" />
-    <option name="LAST_COMMIT_MESSAGE" value="added register parameters" />
+    <MESSAGE value="corrected RegisterHandler" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected RegisterHandler" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -153,22 +153,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1598635949750" />
-    <state width="1493" height="211" key="GridCell.Tab.0.bottom" timestamp="1598711107874">
+    <state width="1493" height="50" key="GridCell.Tab.0.bottom" timestamp="1598804998359">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1598711107874" />
-    <state width="1493" height="211" key="GridCell.Tab.0.center" timestamp="1598711107874">
+    <state width="1493" height="50" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1598804998359" />
+    <state width="1493" height="50" key="GridCell.Tab.0.center" timestamp="1598804998359">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1598711107874" />
-    <state width="1493" height="211" key="GridCell.Tab.0.left" timestamp="1598711107874">
+    <state width="1493" height="50" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1598804998359" />
+    <state width="1493" height="50" key="GridCell.Tab.0.left" timestamp="1598804998359">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1598711107874" />
-    <state width="1493" height="211" key="GridCell.Tab.0.right" timestamp="1598711107874">
+    <state width="1493" height="50" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1598804998359" />
+    <state width="1493" height="50" key="GridCell.Tab.0.right" timestamp="1598804998359">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="211" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1598711107874" />
+    <state width="1493" height="50" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1598804998359" />
     <state width="189" height="457" key="HiddenNamespacesPopup" timestamp="1598696586992">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -178,11 +178,11 @@
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1598642380931" />
     <state x="170" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1598697365932" />
-    <state x="280" y="91" key="Vcs.Push.Dialog.v2" timestamp="1598804059899">
+    <state x="280" y="91" key="Vcs.Push.Dialog.v2" timestamp="1598804411693">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1598642462537" />
-    <state x="280" y="91" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1598804059899" />
+    <state x="280" y="91" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1598804411693" />
     <state x="668" y="294" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1598803279144">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

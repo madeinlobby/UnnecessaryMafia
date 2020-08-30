@@ -12,7 +12,7 @@ func InsertUser(name, password, phoneNumber, email, fname, lname, status string)
 		panic(err.Error())
 	}
 	_, _ = insForm.Exec(name, password, phoneNumber, email, fname, lname, status)
-	log.Println("INSERT: Name: " + name)
+	log.Println("INSERT User: " + name)
 
 	defer db.Close()
 	return

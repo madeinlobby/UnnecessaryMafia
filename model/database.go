@@ -11,7 +11,7 @@ func GetDbConnection() (db *sql.DB) {
 	*/
 	dbDriver := "mysql"
 	dbUser := "root"
-	dbPass := "your pass"
+	dbPass := "cavahonary"
 	dbName := "Mafia"
 	db, err := sql.Open(dbDriver, dbUser+":"+dbPass+"@/"+dbName)
 	if err != nil {
