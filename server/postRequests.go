@@ -28,7 +28,10 @@ func LoginHandler(w http.ResponseWriter, r *http.Request) {
 		w.WriteHeader(http.StatusInternalServerError)
 		return
 	}
-	_, err = w.Write(jsonResp)
+	if gameUser.Username == "" {
+		jsonResp = []byte("Operation Failed")
+	}
+	_, err = w.Write(jsonResp) //ToDo  http: superfluous response.WriteHeader call is because of calling both 'write' and 'redirect'
 	if err != nil {
 		log.Printf("could not write response: %s", r.RequestURI)
 	}
