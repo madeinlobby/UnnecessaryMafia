@@ -19,11 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53c7b4ff-4b25-4da3-9a24-e8e09c741aab" name="Default Changelist" comment="added mysql import, ignored typo">
+    <list default="true" id="53c7b4ff-4b25-4da3-9a24-e8e09c741aab" name="Default Changelist" comment="added register parameters">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/userController.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/userController.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/database.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/database.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/postRequests.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/postRequests.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +128,8 @@
     <MESSAGE value="kalam" />
     <MESSAGE value="ash reshte bedune reshte" />
     <MESSAGE value="added mysql import, ignored typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="added mysql import, ignored typo" />
+    <MESSAGE value="added register parameters" />
+    <option name="LAST_COMMIT_MESSAGE" value="added register parameters" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -178,11 +178,11 @@
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1598642380931" />
     <state x="170" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1598697365932" />
-    <state x="280" y="91" key="Vcs.Push.Dialog.v2" timestamp="1598697652456">
+    <state x="280" y="91" key="Vcs.Push.Dialog.v2" timestamp="1598804059899">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1598642462537" />
-    <state x="280" y="91" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1598697652456" />
+    <state x="280" y="91" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1598804059899" />
     <state x="668" y="294" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1598803279144">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

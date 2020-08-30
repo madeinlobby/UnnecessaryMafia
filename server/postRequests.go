@@ -6,8 +6,13 @@ import (
 )
 
 func RegisterHandler(w http.ResponseWriter, r *http.Request) {
-	name := r.FormValue("name")
-	password := r.FormValue("password")
-	controller.InsertUser(name, password)
+	controller.InsertUser(
+		r.FormValue("username"),
+		r.FormValue("password"),
+		r.FormValue("phone_number"),
+		r.FormValue("email"),
+		r.FormValue("fname"),
+		r.FormValue("lname"),
+		r.FormValue("status"))
 	http.Redirect(w, r, "/", 301)
 }
