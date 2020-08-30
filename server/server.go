@@ -22,6 +22,7 @@ func (server *Server) Run() {
 	//todo
 	server.router.HandleFunc("/helloworld", helloWorldHandler).Methods("GET")
 	server.router.HandleFunc("/register", RegisterHandler).Methods("POST")
+	server.router.HandleFunc("/login", LoginHandler).Methods("POST")
 	http.Handle("/", server.router)
 	if err := http.ListenAndServe(server.port, server.router); err != nil {
 		log.Fatalf("failed to listen")
