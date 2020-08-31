@@ -17,12 +17,16 @@ func RegisterHandler(w http.ResponseWriter, r *http.Request) {
 				r.FormValue("email"),
 				r.FormValue("fname"),
 				r.FormValue("lname"),
-				r.FormValue("status"))
+				r.FormValue("status")) //ToDo Still accepts empty strings, only lname and status and phone can be empty
 			http.Redirect(w, r, "/", http.StatusMovedPermanently)
+			_, err := w.Write([]byte("User Has Been Created!"))
+			if err != nil {
+				log.Printf("could not write response: %s\n", r.RequestURI)
+			}
 		},
 		Catch: func(exception controller.Exception) {
 			w.WriteHeader(http.StatusInternalServerError)
-			log.Fatal(http.StatusInternalServerError)
+			log.Println(http.StatusInternalServerError)
 		},
 	}.Do()
 }
@@ -39,9 +43,9 @@ func LoginHandler(w http.ResponseWriter, r *http.Request) {
 	if gameUser.Username == "" {
 		jsonResp = []byte("Operation Failed")
 	}
-	_, err = w.Write(jsonResp) //ToDo  http: superfluous response.WriteHeader call is because of calling both 'write' and 'redirect'
-	if err != nil {
-		log.Printf("could not write response: %s", r.RequestURI)
-	}
 	http.Redirect(w, r, "/", http.StatusMovedPermanently)
+	_, err = w.Write(jsonResp) // This way it doesn't superflow response call, ToDo should still test if it reaches this line
+	if err != nil {
+		log.Printf("could not write response: %s\n", r.RequestURI)
+	}
 }
