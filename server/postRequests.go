@@ -29,9 +29,6 @@ func LoginHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	//todo
-	//in chie? inja faghat read o write kone, ba erorayii ke dast ma nist
-	//, controller in khali o intor budano check kone
 	if gameUser.Username == "" {
 		jsonResp = []byte("Operation Failed")
 	}
