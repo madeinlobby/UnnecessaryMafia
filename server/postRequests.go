@@ -8,15 +8,23 @@ import (
 )
 
 func RegisterHandler(w http.ResponseWriter, r *http.Request) {
-	controller.InsertUser(
-		r.FormValue("username"),
-		r.FormValue("password"),
-		r.FormValue("phone_number"),
-		r.FormValue("email"),
-		r.FormValue("fname"),
-		r.FormValue("lname"),
-		r.FormValue("status"))
-	http.Redirect(w, r, "/", http.StatusMovedPermanently)
+	controller.Block{
+		Try: func() {
+			controller.InsertUser(
+				r.FormValue("username"),
+				r.FormValue("password"),
+				r.FormValue("phone_number"),
+				r.FormValue("email"),
+				r.FormValue("fname"),
+				r.FormValue("lname"),
+				r.FormValue("status"))
+			http.Redirect(w, r, "/", http.StatusMovedPermanently)
+		},
+		Catch: func(exception controller.Exception) {
+			w.WriteHeader(http.StatusInternalServerError)
+			log.Fatal(http.StatusInternalServerError)
+		},
+	}.Do()
 }
 
 func LoginHandler(w http.ResponseWriter, r *http.Request) {
@@ -28,7 +36,6 @@ func LoginHandler(w http.ResponseWriter, r *http.Request) {
 		w.WriteHeader(http.StatusInternalServerError)
 		return
 	}
-
 	if gameUser.Username == "" {
 		jsonResp = []byte("Operation Failed")
 	}

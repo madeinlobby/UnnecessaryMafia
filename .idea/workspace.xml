@@ -25,24 +25,16 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15377f3a-3835-43fa-8c18-839eb9362306" name="Default Changelist" comment="go.sum">
+    <list default="true" id="15377f3a-3835-43fa-8c18-839eb9362306" name="Default Changelist" comment="hash">
+      <change afterPath="$PROJECT_DIR$/controller/errorHandler.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/userController.go" beforeDir="false" afterPath="$PROJECT_DIR$/controller/userController.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/user.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/postRequests.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/postRequests.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseLocalColorSettings">
-    <colors>
-      <entry key="7532b1b6-8c01-411a-93ee-fbd00ba9bdeb" value="Rose" />
-      <entry key="acbc5fe1-27e9-4c0b-9fd8-d7419b7d98f4" value="Rose" />
-    </colors>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,7 +47,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="yalda" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -186,11 +178,19 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="189" height="457" key="HiddenNamespacesPopup/0.0.1536.834@0.0.1536.834" timestamp="1598805138681" />
+    <state x="121" y="51" key="MergeDialog" timestamp="1598826833663">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="51" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1598826833663" />
     <state x="170" y="0" key="SettingsEditor" timestamp="1598697365932">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1598642380931" />
     <state x="170" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1598697365932" />
+    <state x="93" y="93" width="1095" height="495" key="ShowDiffWithBranchDialog" timestamp="1598827040875">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" key="ShowDiffWithBranchDialog/0.0.1280.680@0.0.1280.680" timestamp="1598827040875" />
     <state x="280" y="91" key="Vcs.Push.Dialog.v2" timestamp="1598807561435">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -208,9 +208,13 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="423" y="122" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1/0.0.1536.834@0.0.1536.834" timestamp="1598697349823" />
-    <state x="423" y="54" key="git4idea.branch.GitSmartOperationDialog" timestamp="1598823340140">
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598870735642">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="423" y="54" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.680@0.0.1280.680" timestamp="1598823340140" />
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1598870735642" />
+    <state x="423" y="54" key="git4idea.branch.GitSmartOperationDialog" timestamp="1598826815540">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="423" y="54" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.680@0.0.1280.680" timestamp="1598826815540" />
   </component>
 </project>

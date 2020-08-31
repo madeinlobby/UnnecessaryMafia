@@ -10,7 +10,17 @@ import (
 func InsertUser(username, password, phoneNumber, email, fname, lname, status string) { //GameUser is the username of the table
 	//TODO authorize bayad she ba email
 	db := model.GetDbConnection()
-	hashedPass := hashPassword(password)
+	hashedPass := ""
+	Block{
+		Try: func() {
+			hashedPass = hashPassword(password)
+		},
+		Catch: func(exception Exception) {
+			defer db.Close()
+			Throw(exception)
+		},
+	}.Do()
+
 	insForm, err := db.Prepare("INSERT INTO mafia.gameuser(username, password, `phone number`, email, fname, lname, status) VALUES(?,?,?,?,?,?,?)")
 	if err != nil {
 		panic(err.Error())
@@ -56,7 +66,7 @@ Hashes password to save in db
 func hashPassword(password string) string {
 	hash, err := bcrypt.GenerateFromPassword([]byte(password), bcrypt.DefaultCost)
 	if err != nil {
-		// TODO: Properly handle error
+		Throw(err)
 		log.Fatal(err)
 	}
 	return string(hash)
@@ -67,8 +77,8 @@ Is (password -> hash) same with hashed one in db
 */
 func checkPassword(password, hashFromDatabase string) bool {
 	if err := bcrypt.CompareHashAndPassword([]byte(hashFromDatabase), []byte(password)); err != nil {
-		// TODO: Properly handle error
 		log.Fatal(err)
+		return false
 	}
 	return true
 }
