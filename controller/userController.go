@@ -35,7 +35,6 @@ func InsertUser(username, password, phoneNumber, email, fname, lname, status str
 func GetUser(username, password string) model.GameUser {
 	db := model.GetDbConnection()
 	var g model.GameUser
-	//err := db.QueryRow("SELECT mafia.gameuser.username, password, `phone number`, email, fname, lname, status FROM mafia.gameuser WHERE username = ? AND password = ?", username, password).
 	err := db.QueryRow("SELECT mafia.gameuser.username, password, `phone number`, email, fname, lname, status FROM mafia.gameuser WHERE username = ?", username).
 		Scan(&g.Username, &g.Password, &g.PhoneNumber, &g.Email, &g.Fname, &g.Lname, &g.Status)
 	if err != nil {
@@ -67,7 +66,7 @@ func hashPassword(password string) string {
 	hash, err := bcrypt.GenerateFromPassword([]byte(password), bcrypt.DefaultCost)
 	if err != nil {
 		Throw(err)
-		log.Fatal(err)
+		log.Println(err) // Shouldn't be fatal, cuz it would end our server
 	}
 	return string(hash)
 }
@@ -77,7 +76,7 @@ Is (password -> hash) same with hashed one in db
 */
 func checkPassword(password, hashFromDatabase string) bool {
 	if err := bcrypt.CompareHashAndPassword([]byte(hashFromDatabase), []byte(password)); err != nil {
-		log.Fatal(err)
+		log.Println(err)
 		return false
 	}
 	return true
