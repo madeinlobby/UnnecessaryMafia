@@ -45,6 +45,7 @@ func LoginHandler(w http.ResponseWriter, r *http.Request) {
 	}
 	http.Redirect(w, r, "/", http.StatusMovedPermanently)
 	_, err = w.Write(jsonResp) // This way it doesn't superflow response call, ToDo should still test if it reaches this line
+	// ToDo redirect if successful and print successful in home page, don't redirect if not successful and show error in current page.
 	if err != nil {
 		log.Printf("could not write response: %s\n", r.RequestURI)
 	}
